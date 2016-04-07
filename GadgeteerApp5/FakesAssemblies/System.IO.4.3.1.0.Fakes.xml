@@ -1,0 +1,2342 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.IO.4.3.1.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:System.IO.Fakes.ShimDirectory">
+            <summary>Shim type of System.IO.Directory</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimDirectory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimDirectory.#ctor(System.IO.Directory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimDirectory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimDirectory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.Constructor">
+            <summary>Sets the shim of Directory.Directory()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.CreateDirectoryString">
+            <summary>Sets the shim of Directory.CreateDirectory(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.DeleteString">
+            <summary>Sets the shim of Directory.Delete(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.DeleteStringBoolean">
+            <summary>Sets the shim of Directory.Delete(String path, Boolean recursive)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.EnumerateDirectoriesString">
+            <summary>Sets the shim of Directory.EnumerateDirectories(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.EnumerateFileSystemEntriesString">
+            <summary>Sets the shim of Directory.EnumerateFileSystemEntries(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.EnumerateFilesString">
+            <summary>Sets the shim of Directory.EnumerateFiles(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.ExistsString">
+            <summary>Sets the shim of Directory.Exists(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.GetChildrenStringStringBoolean">
+            <summary>Sets the shim of Directory.GetChildren(String path, String searchPattern, Boolean isDirectory)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.GetCurrentDirectory">
+            <summary>Sets the shim of Directory.GetCurrentDirectory()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.GetDirectoriesString">
+            <summary>Sets the shim of Directory.GetDirectories(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.GetFilesString">
+            <summary>Sets the shim of Directory.GetFiles(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.MoveStringString">
+            <summary>Sets the shim of Directory.Move(String sourceDirName, String destDirName)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.RecursiveCopyAndDeleteStringString">
+            <summary>Sets the shim of Directory.RecursiveCopyAndDelete(String sourceDirName, String destDirName)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectory.SetCurrentDirectoryString">
+            <summary>Sets the shim of Directory.SetCurrentDirectory(String path)</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimDirectory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimDirectoryInfo">
+            <summary>Shim type of System.IO.DirectoryInfo</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimDirectoryInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimDirectoryInfo.#ctor(System.IO.DirectoryInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimDirectoryInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimDirectoryInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.Constructor">
+            <summary>Sets the shim of DirectoryInfo.DirectoryInfo()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.ConstructorString">
+            <summary>Sets the shim of DirectoryInfo.DirectoryInfo(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.Create">
+            <summary>Sets the shim of DirectoryInfo.Create()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.CreateSubdirectoryString">
+            <summary>Sets the shim of DirectoryInfo.CreateSubdirectory(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.Delete">
+            <summary>Sets the shim of DirectoryInfo.Delete()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.DeleteBoolean">
+            <summary>Sets the shim of DirectoryInfo.Delete(Boolean recursive)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.ExistsGet">
+            <summary>Sets the shim of DirectoryInfo.get_Exists()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.GetDirectories">
+            <summary>Sets the shim of DirectoryInfo.GetDirectories()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.GetFiles">
+            <summary>Sets the shim of DirectoryInfo.GetFiles()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.MoveToString">
+            <summary>Sets the shim of DirectoryInfo.MoveTo(String destDirName)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.NameGet">
+            <summary>Sets the shim of DirectoryInfo.get_Name()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.ParentGet">
+            <summary>Sets the shim of DirectoryInfo.get_Parent()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.RootGet">
+            <summary>Sets the shim of DirectoryInfo.get_Root()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.ToString">
+            <summary>Sets the shim of DirectoryInfo.ToString()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimDirectoryInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.Create">
+            <summary>Sets the shim of DirectoryInfo.Create()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.CreateSubdirectoryString">
+            <summary>Sets the shim of DirectoryInfo.CreateSubdirectory(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.Delete">
+            <summary>Sets the shim of DirectoryInfo.Delete()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.DeleteBoolean">
+            <summary>Sets the shim of DirectoryInfo.Delete(Boolean recursive)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.ExistsGet">
+            <summary>Sets the shim of DirectoryInfo.get_Exists()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.GetDirectories">
+            <summary>Sets the shim of DirectoryInfo.GetDirectories()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.GetFiles">
+            <summary>Sets the shim of DirectoryInfo.GetFiles()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.MoveToString">
+            <summary>Sets the shim of DirectoryInfo.MoveTo(String destDirName)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.NameGet">
+            <summary>Sets the shim of DirectoryInfo.get_Name()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.ParentGet">
+            <summary>Sets the shim of DirectoryInfo.get_Parent()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.RootGet">
+            <summary>Sets the shim of DirectoryInfo.get_Root()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimDirectoryInfo.AllInstances.ToString01">
+            <summary>Sets the shim of DirectoryInfo.ToString()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimFile">
+            <summary>Shim type of System.IO.File</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFile.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFile.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFile.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.CopyStringString">
+            <summary>Sets the shim of File.Copy(String sourceFileName, String destFileName)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.CopyStringStringBoolean">
+            <summary>Sets the shim of File.Copy(String sourceFileName, String destFileName, Boolean overwrite)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.CopyStringStringBooleanBoolean">
+            <summary>Sets the shim of File.Copy(String sourceFileName, String destFileName, Boolean overwrite, Boolean deleteOriginal)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.CreateString">
+            <summary>Sets the shim of File.Create(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.CreateStringInt32">
+            <summary>Sets the shim of File.Create(String path, Int32 bufferSize)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.DeleteString">
+            <summary>Sets the shim of File.Delete(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.ExistsString">
+            <summary>Sets the shim of File.Exists(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.GetAttributesString">
+            <summary>Sets the shim of File.GetAttributes(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.MoveStringString">
+            <summary>Sets the shim of File.Move(String sourceFileName, String destFileName)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.OpenReadString">
+            <summary>Sets the shim of File.OpenRead(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.OpenStringFileMode">
+            <summary>Sets the shim of File.Open(String path, FileMode mode)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.OpenStringFileModeFileAccess">
+            <summary>Sets the shim of File.Open(String path, FileMode mode, FileAccess access)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.OpenStringFileModeFileAccessFileShare">
+            <summary>Sets the shim of File.Open(String path, FileMode mode, FileAccess access, FileShare share)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.OpenWriteString">
+            <summary>Sets the shim of File.OpenWrite(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.ReadAllBytesString">
+            <summary>Sets the shim of File.ReadAllBytes(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.SetAttributesStringFileAttributes">
+            <summary>Sets the shim of File.SetAttributes(String path, FileAttributes fileAttributes)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFile.WriteAllBytesStringByteArray">
+            <summary>Sets the shim of File.WriteAllBytes(String path, Byte[] bytes)</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimFileEnum">
+            <summary>Shim type of System.IO.FileEnum</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileEnum.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileEnum.#ctor(System.IO.FileEnum)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileEnum.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileEnum.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileEnum.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileEnum.Bind(System.Collections.IEnumerator)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.ConstructorStringFileEnumFlags">
+            <summary>Sets the shim of FileEnum.FileEnum(String path, FileEnumFlags flags)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.CurrentGet">
+            <summary>Sets the shim of FileEnum.get_Current()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.Dispose">
+            <summary>Sets the shim of FileEnum.Dispose()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.DisposeBoolean">
+            <summary>Sets the shim of FileEnum.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.MoveNext">
+            <summary>Sets the shim of FileEnum.MoveNext()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.Reset">
+            <summary>Sets the shim of FileEnum.Reset()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimFileEnum.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.AllInstances.CurrentGet">
+            <summary>Sets the shim of FileEnum.get_Current()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.AllInstances.Dispose">
+            <summary>Sets the shim of FileEnum.Dispose()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of FileEnum.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.AllInstances.MoveNext">
+            <summary>Sets the shim of FileEnum.MoveNext()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnum.AllInstances.Reset">
+            <summary>Sets the shim of FileEnum.Reset()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimFileEnumerator">
+            <summary>Shim type of System.IO.FileEnumerator</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileEnumerator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileEnumerator.#ctor(System.IO.FileEnumerator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileEnumerator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileEnumerator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileEnumerator.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnumerator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnumerator.ConstructorStringFileEnumFlags">
+            <summary>Sets the shim of FileEnumerator.FileEnumerator(String path, FileEnumFlags flags)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnumerator.GetEnumerator">
+            <summary>Sets the shim of FileEnumerator.GetEnumerator()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimFileEnumerator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileEnumerator.AllInstances.GetEnumerator">
+            <summary>Sets the shim of FileEnumerator.GetEnumerator()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimFileInfo">
+            <summary>Shim type of System.IO.FileInfo</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileInfo.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileInfo.#ctor(System.IO.FileInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.ConstructorString">
+            <summary>Sets the shim of FileInfo.FileInfo(String fileName)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.Create">
+            <summary>Sets the shim of FileInfo.Create()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.Delete">
+            <summary>Sets the shim of FileInfo.Delete()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.DirectoryGet">
+            <summary>Sets the shim of FileInfo.get_Directory()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.DirectoryNameGet">
+            <summary>Sets the shim of FileInfo.get_DirectoryName()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.ExistsGet">
+            <summary>Sets the shim of FileInfo.get_Exists()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.LengthGet">
+            <summary>Sets the shim of FileInfo.get_Length()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.NameGet">
+            <summary>Sets the shim of FileInfo.get_Name()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.ToString">
+            <summary>Sets the shim of FileInfo.ToString()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimFileInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.AllInstances.Create">
+            <summary>Sets the shim of FileInfo.Create()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.AllInstances.Delete">
+            <summary>Sets the shim of FileInfo.Delete()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.AllInstances.DirectoryGet">
+            <summary>Sets the shim of FileInfo.get_Directory()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.AllInstances.DirectoryNameGet">
+            <summary>Sets the shim of FileInfo.get_DirectoryName()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.AllInstances.ExistsGet">
+            <summary>Sets the shim of FileInfo.get_Exists()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.AllInstances.LengthGet">
+            <summary>Sets the shim of FileInfo.get_Length()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.AllInstances.NameGet">
+            <summary>Sets the shim of FileInfo.get_Name()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileInfo.AllInstances.ToString01">
+            <summary>Sets the shim of FileInfo.ToString()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimFileStream">
+            <summary>Shim type of System.IO.FileStream</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileStream.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileStream.#ctor(System.IO.FileStream)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileStream.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileStream.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileStream.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.CanReadGet">
+            <summary>Sets the shim of FileStream.get_CanRead()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.CanSeekGet">
+            <summary>Sets the shim of FileStream.get_CanSeek()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.CanWriteGet">
+            <summary>Sets the shim of FileStream.get_CanWrite()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.ConstructorStringFileMode">
+            <summary>Sets the shim of FileStream.FileStream(String path, FileMode mode)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.ConstructorStringFileModeFileAccess">
+            <summary>Sets the shim of FileStream.FileStream(String path, FileMode mode, FileAccess access)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.ConstructorStringFileModeFileAccessFileShare">
+            <summary>Sets the shim of FileStream.FileStream(String path, FileMode mode, FileAccess access, FileShare share)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.ConstructorStringFileModeFileAccessFileShareInt32">
+            <summary>Sets the shim of FileStream.FileStream(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.DisposeAndDelete">
+            <summary>Sets the shim of FileStream.DisposeAndDelete()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.DisposeBoolean">
+            <summary>Sets the shim of FileStream.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.Flush">
+            <summary>Sets the shim of FileStream.Flush()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.IsAsyncGet">
+            <summary>Sets the shim of FileStream.get_IsAsync()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.LengthGet">
+            <summary>Sets the shim of FileStream.get_Length()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.NameGet">
+            <summary>Sets the shim of FileStream.get_Name()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.PositionGet">
+            <summary>Sets the shim of FileStream.get_Position()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.PositionSetInt64">
+            <summary>Sets the shim of FileStream.set_Position(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.ReadByteArrayInt32Int32">
+            <summary>Sets the shim of FileStream.Read(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.SeekInt64SeekOrigin">
+            <summary>Sets the shim of FileStream.Seek(Int64 offset, SeekOrigin origin)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.SetLengthInt64">
+            <summary>Sets the shim of FileStream.SetLength(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.WriteByteArrayInt32Int32">
+            <summary>Sets the shim of FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimFileStream.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.CanReadGet">
+            <summary>Sets the shim of FileStream.get_CanRead()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.CanSeekGet">
+            <summary>Sets the shim of FileStream.get_CanSeek()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.CanWriteGet">
+            <summary>Sets the shim of FileStream.get_CanWrite()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.DisposeAndDelete">
+            <summary>Sets the shim of FileStream.DisposeAndDelete()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of FileStream.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.Flush">
+            <summary>Sets the shim of FileStream.Flush()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.IsAsyncGet">
+            <summary>Sets the shim of FileStream.get_IsAsync()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.LengthGet">
+            <summary>Sets the shim of FileStream.get_Length()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.NameGet">
+            <summary>Sets the shim of FileStream.get_Name()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.PositionGet">
+            <summary>Sets the shim of FileStream.get_Position()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.PositionSetInt64">
+            <summary>Sets the shim of FileStream.set_Position(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.ReadByteArrayInt32Int32">
+            <summary>Sets the shim of FileStream.Read(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.SeekInt64SeekOrigin">
+            <summary>Sets the shim of FileStream.Seek(Int64 offset, SeekOrigin origin)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.SetLengthInt64">
+            <summary>Sets the shim of FileStream.SetLength(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileStream.AllInstances.WriteByteArrayInt32Int32">
+            <summary>Sets the shim of FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimFileSystemInfo">
+            <summary>Shim type of System.IO.FileSystemInfo</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileSystemInfo.#ctor(System.IO.FileSystemInfo)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileSystemInfo.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimFileSystemInfo.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AttributesGet">
+            <summary>Sets the shim of FileSystemInfo.get_Attributes()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.Constructor">
+            <summary>Sets the shim of FileSystemInfo.FileSystemInfo()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.CreationTimeGet">
+            <summary>Sets the shim of FileSystemInfo.get_CreationTime()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.CreationTimeUtcGet">
+            <summary>Sets the shim of FileSystemInfo.get_CreationTimeUtc()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.ExtensionGet">
+            <summary>Sets the shim of FileSystemInfo.get_Extension()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.FullNameGet">
+            <summary>Sets the shim of FileSystemInfo.get_FullName()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.LastAccessTimeGet">
+            <summary>Sets the shim of FileSystemInfo.get_LastAccessTime()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.LastAccessTimeUtcGet">
+            <summary>Sets the shim of FileSystemInfo.get_LastAccessTimeUtc()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.LastWriteTimeGet">
+            <summary>Sets the shim of FileSystemInfo.get_LastWriteTime()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.LastWriteTimeUtcGet">
+            <summary>Sets the shim of FileSystemInfo.get_LastWriteTimeUtc()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.Refresh">
+            <summary>Sets the shim of FileSystemInfo.Refresh()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.RefreshIfNull">
+            <summary>Sets the shim of FileSystemInfo.RefreshIfNull()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimFileSystemInfo.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AllInstances.AttributesGet">
+            <summary>Sets the shim of FileSystemInfo.get_Attributes()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AllInstances.CreationTimeGet">
+            <summary>Sets the shim of FileSystemInfo.get_CreationTime()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AllInstances.CreationTimeUtcGet">
+            <summary>Sets the shim of FileSystemInfo.get_CreationTimeUtc()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AllInstances.ExtensionGet">
+            <summary>Sets the shim of FileSystemInfo.get_Extension()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AllInstances.FullNameGet">
+            <summary>Sets the shim of FileSystemInfo.get_FullName()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AllInstances.LastAccessTimeGet">
+            <summary>Sets the shim of FileSystemInfo.get_LastAccessTime()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AllInstances.LastAccessTimeUtcGet">
+            <summary>Sets the shim of FileSystemInfo.get_LastAccessTimeUtc()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AllInstances.LastWriteTimeGet">
+            <summary>Sets the shim of FileSystemInfo.get_LastWriteTime()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AllInstances.LastWriteTimeUtcGet">
+            <summary>Sets the shim of FileSystemInfo.get_LastWriteTimeUtc()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AllInstances.Refresh">
+            <summary>Sets the shim of FileSystemInfo.Refresh()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimFileSystemInfo.AllInstances.RefreshIfNull">
+            <summary>Sets the shim of FileSystemInfo.RefreshIfNull()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimMemoryStream">
+            <summary>Shim type of System.IO.MemoryStream</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimMemoryStream.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimMemoryStream.#ctor(System.IO.MemoryStream)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimMemoryStream.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimMemoryStream.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimMemoryStream.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.CanReadGet">
+            <summary>Sets the shim of MemoryStream.get_CanRead()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.CanSeekGet">
+            <summary>Sets the shim of MemoryStream.get_CanSeek()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.CanWriteGet">
+            <summary>Sets the shim of MemoryStream.get_CanWrite()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.Constructor">
+            <summary>Sets the shim of MemoryStream.MemoryStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.ConstructorByteArray">
+            <summary>Sets the shim of MemoryStream.MemoryStream(Byte[] buffer)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.DisposeBoolean">
+            <summary>Sets the shim of MemoryStream.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.EnsureCapacityInt32">
+            <summary>Sets the shim of MemoryStream.EnsureCapacity(Int32 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.Flush">
+            <summary>Sets the shim of MemoryStream.Flush()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.LengthGet">
+            <summary>Sets the shim of MemoryStream.get_Length()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.PositionGet">
+            <summary>Sets the shim of MemoryStream.get_Position()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.PositionSetInt64">
+            <summary>Sets the shim of MemoryStream.set_Position(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.ReadByte">
+            <summary>Sets the shim of MemoryStream.ReadByte()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.ReadByteArrayInt32Int32">
+            <summary>Sets the shim of MemoryStream.Read(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.SeekInt64SeekOrigin">
+            <summary>Sets the shim of MemoryStream.Seek(Int64 offset, SeekOrigin origin)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.SetLengthInt64">
+            <summary>Sets the shim of MemoryStream.SetLength(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.ToArray">
+            <summary>Sets the shim of MemoryStream.ToArray()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.WriteByteArrayInt32Int32">
+            <summary>Sets the shim of MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.WriteByteByte">
+            <summary>Sets the shim of MemoryStream.WriteByte(Byte value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.WriteToStream">
+            <summary>Sets the shim of MemoryStream.WriteTo(Stream stream)</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimMemoryStream.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.CanReadGet">
+            <summary>Sets the shim of MemoryStream.get_CanRead()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.CanSeekGet">
+            <summary>Sets the shim of MemoryStream.get_CanSeek()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.CanWriteGet">
+            <summary>Sets the shim of MemoryStream.get_CanWrite()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of MemoryStream.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.EnsureCapacityInt32">
+            <summary>Sets the shim of MemoryStream.EnsureCapacity(Int32 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.Flush">
+            <summary>Sets the shim of MemoryStream.Flush()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.LengthGet">
+            <summary>Sets the shim of MemoryStream.get_Length()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.PositionGet">
+            <summary>Sets the shim of MemoryStream.get_Position()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.PositionSetInt64">
+            <summary>Sets the shim of MemoryStream.set_Position(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.ReadByte">
+            <summary>Sets the shim of MemoryStream.ReadByte()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.ReadByteArrayInt32Int32">
+            <summary>Sets the shim of MemoryStream.Read(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.SeekInt64SeekOrigin">
+            <summary>Sets the shim of MemoryStream.Seek(Int64 offset, SeekOrigin origin)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.SetLengthInt64">
+            <summary>Sets the shim of MemoryStream.SetLength(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.ToArray">
+            <summary>Sets the shim of MemoryStream.ToArray()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.WriteByteArrayInt32Int32">
+            <summary>Sets the shim of MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.WriteByteByte">
+            <summary>Sets the shim of MemoryStream.WriteByte(Byte value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimMemoryStream.AllInstances.WriteToStream">
+            <summary>Sets the shim of MemoryStream.WriteTo(Stream stream)</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimPath">
+            <summary>Shim type of System.IO.Path</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimPath.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimPath.#ctor(System.IO.Path)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimPath.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimPath.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.ChangeExtensionStringString">
+            <summary>Sets the shim of Path.ChangeExtension(String path, String extension)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.CheckInvalidPathCharsString">
+            <summary>Sets the shim of Path.CheckInvalidPathChars(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.CombineStringString">
+            <summary>Sets the shim of Path.Combine(String path1, String path2)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.Constructor">
+            <summary>Sets the shim of Path.Path()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.GetDirectoryNameString">
+            <summary>Sets the shim of Path.GetDirectoryName(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.GetExtensionString">
+            <summary>Sets the shim of Path.GetExtension(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.GetFileNameString">
+            <summary>Sets the shim of Path.GetFileName(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.GetFileNameWithoutExtensionString">
+            <summary>Sets the shim of Path.GetFileNameWithoutExtension(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.GetFullPathString">
+            <summary>Sets the shim of Path.GetFullPath(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.GetInvalidPathChars">
+            <summary>Sets the shim of Path.GetInvalidPathChars()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.GetPathRootString">
+            <summary>Sets the shim of Path.GetPathRoot(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.GetRootLengthString">
+            <summary>Sets the shim of Path.GetRootLength(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.HasExtensionString">
+            <summary>Sets the shim of Path.HasExtension(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.IsDirectorySeparatorChar">
+            <summary>Sets the shim of Path.IsDirectorySeparator(Char c)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.IsPathRootedString">
+            <summary>Sets the shim of Path.IsPathRooted(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.NormalizePathStringBoolean">
+            <summary>Sets the shim of Path.NormalizePath(String path, Boolean pattern)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.StaticConstructor">
+            <summary>Sets the shim of Path.Path()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimPath.ValidateNullOrEmptyString">
+            <summary>Sets the shim of Path.ValidateNullOrEmpty(String str)</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimPath.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimStreamReader">
+            <summary>Shim type of System.IO.StreamReader</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimStreamReader.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimStreamReader.#ctor(System.IO.StreamReader)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimStreamReader.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimStreamReader.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimStreamReader.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.BaseStreamGet">
+            <summary>Sets the shim of StreamReader.get_BaseStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.Close">
+            <summary>Sets the shim of StreamReader.Close()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.ConstructorStream">
+            <summary>Sets the shim of StreamReader.StreamReader(Stream stream)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.ConstructorString">
+            <summary>Sets the shim of StreamReader.StreamReader(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.CurrentEncodingGet">
+            <summary>Sets the shim of StreamReader.get_CurrentEncoding()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.DisposeBoolean">
+            <summary>Sets the shim of StreamReader.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.EndOfStreamGet">
+            <summary>Sets the shim of StreamReader.get_EndOfStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.FillBufferAndResetInt32">
+            <summary>Sets the shim of StreamReader.FillBufferAndReset(Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.Peek">
+            <summary>Sets the shim of StreamReader.Peek()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.Read">
+            <summary>Sets the shim of StreamReader.Read()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.ReadCharArrayInt32Int32">
+            <summary>Sets the shim of StreamReader.Read(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.ReadLine">
+            <summary>Sets the shim of StreamReader.ReadLine()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.ReadNonSeekableStream">
+            <summary>Sets the shim of StreamReader.ReadNonSeekableStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.ReadSeekableStream">
+            <summary>Sets the shim of StreamReader.ReadSeekableStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.ReadToEnd">
+            <summary>Sets the shim of StreamReader.ReadToEnd()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.Reset">
+            <summary>Sets the shim of StreamReader.Reset()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimStreamReader.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.BaseStreamGet">
+            <summary>Sets the shim of StreamReader.get_BaseStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.Close">
+            <summary>Sets the shim of StreamReader.Close()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.CurrentEncodingGet">
+            <summary>Sets the shim of StreamReader.get_CurrentEncoding()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of StreamReader.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.EndOfStreamGet">
+            <summary>Sets the shim of StreamReader.get_EndOfStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.FillBufferAndResetInt32">
+            <summary>Sets the shim of StreamReader.FillBufferAndReset(Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.Peek">
+            <summary>Sets the shim of StreamReader.Peek()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.Read">
+            <summary>Sets the shim of StreamReader.Read()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.ReadCharArrayInt32Int32">
+            <summary>Sets the shim of StreamReader.Read(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.ReadLine">
+            <summary>Sets the shim of StreamReader.ReadLine()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.ReadNonSeekableStream">
+            <summary>Sets the shim of StreamReader.ReadNonSeekableStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.ReadSeekableStream">
+            <summary>Sets the shim of StreamReader.ReadSeekableStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.ReadToEnd">
+            <summary>Sets the shim of StreamReader.ReadToEnd()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamReader.AllInstances.Reset">
+            <summary>Sets the shim of StreamReader.Reset()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimStreamWriter">
+            <summary>Shim type of System.IO.StreamWriter</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimStreamWriter.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimStreamWriter.#ctor(System.IO.StreamWriter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimStreamWriter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimStreamWriter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimStreamWriter.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.BaseStreamGet">
+            <summary>Sets the shim of StreamWriter.get_BaseStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.Close">
+            <summary>Sets the shim of StreamWriter.Close()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.ConstructorStream">
+            <summary>Sets the shim of StreamWriter.StreamWriter(Stream stream)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.ConstructorString">
+            <summary>Sets the shim of StreamWriter.StreamWriter(String path)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.ConstructorStringBoolean">
+            <summary>Sets the shim of StreamWriter.StreamWriter(String path, Boolean append)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.DisposeBoolean">
+            <summary>Sets the shim of StreamWriter.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.EncodingGet">
+            <summary>Sets the shim of StreamWriter.get_Encoding()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.Flush">
+            <summary>Sets the shim of StreamWriter.Flush()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.WriteBytesByteArrayInt32Int32">
+            <summary>Sets the shim of StreamWriter.WriteBytes(Byte[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.WriteChar">
+            <summary>Sets the shim of StreamWriter.Write(Char value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.WriteLine">
+            <summary>Sets the shim of StreamWriter.WriteLine()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.WriteLineString">
+            <summary>Sets the shim of StreamWriter.WriteLine(String value)</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimStreamWriter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.AllInstances.BaseStreamGet">
+            <summary>Sets the shim of StreamWriter.get_BaseStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.AllInstances.Close">
+            <summary>Sets the shim of StreamWriter.Close()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of StreamWriter.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.AllInstances.EncodingGet">
+            <summary>Sets the shim of StreamWriter.get_Encoding()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.AllInstances.Flush">
+            <summary>Sets the shim of StreamWriter.Flush()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.AllInstances.WriteBytesByteArrayInt32Int32">
+            <summary>Sets the shim of StreamWriter.WriteBytes(Byte[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.AllInstances.WriteChar">
+            <summary>Sets the shim of StreamWriter.Write(Char value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.AllInstances.WriteLine">
+            <summary>Sets the shim of StreamWriter.WriteLine()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimStreamWriter.AllInstances.WriteLineString">
+            <summary>Sets the shim of StreamWriter.WriteLine(String value)</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimTextReader">
+            <summary>Shim type of System.IO.TextReader</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimTextReader.#ctor(System.IO.TextReader)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimTextReader.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimTextReader.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimTextReader.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.Close">
+            <summary>Sets the shim of TextReader.Close()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.Constructor">
+            <summary>Sets the shim of TextReader.TextReader()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.Dispose">
+            <summary>Sets the shim of TextReader.Dispose()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.DisposeBoolean">
+            <summary>Sets the shim of TextReader.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.Peek">
+            <summary>Sets the shim of TextReader.Peek()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.Read">
+            <summary>Sets the shim of TextReader.Read()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.ReadBlockCharArrayInt32Int32">
+            <summary>Sets the shim of TextReader.ReadBlock(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.ReadCharArrayInt32Int32">
+            <summary>Sets the shim of TextReader.Read(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.ReadLine">
+            <summary>Sets the shim of TextReader.ReadLine()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.ReadToEnd">
+            <summary>Sets the shim of TextReader.ReadToEnd()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimTextReader.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.AllInstances.Close">
+            <summary>Sets the shim of TextReader.Close()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.AllInstances.Dispose">
+            <summary>Sets the shim of TextReader.Dispose()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of TextReader.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.AllInstances.Peek">
+            <summary>Sets the shim of TextReader.Peek()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.AllInstances.Read">
+            <summary>Sets the shim of TextReader.Read()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.AllInstances.ReadBlockCharArrayInt32Int32">
+            <summary>Sets the shim of TextReader.ReadBlock(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.AllInstances.ReadCharArrayInt32Int32">
+            <summary>Sets the shim of TextReader.Read(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.AllInstances.ReadLine">
+            <summary>Sets the shim of TextReader.ReadLine()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextReader.AllInstances.ReadToEnd">
+            <summary>Sets the shim of TextReader.ReadToEnd()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimTextWriter">
+            <summary>Shim type of System.IO.TextWriter</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimTextWriter.#ctor(System.IO.TextWriter)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimTextWriter.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimTextWriter.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.IO.Fakes.ShimTextWriter.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.Close">
+            <summary>Sets the shim of TextWriter.Close()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.Constructor">
+            <summary>Sets the shim of TextWriter.TextWriter()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.Dispose">
+            <summary>Sets the shim of TextWriter.Dispose()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.DisposeBoolean">
+            <summary>Sets the shim of TextWriter.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.Flush">
+            <summary>Sets the shim of TextWriter.Flush()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.NewLineGet">
+            <summary>Sets the shim of TextWriter.get_NewLine()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.NewLineSetString">
+            <summary>Sets the shim of TextWriter.set_NewLine(String value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteBoolean">
+            <summary>Sets the shim of TextWriter.Write(Boolean value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteChar">
+            <summary>Sets the shim of TextWriter.Write(Char value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteCharArray">
+            <summary>Sets the shim of TextWriter.Write(Char[] buffer)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteCharArrayInt32Int32">
+            <summary>Sets the shim of TextWriter.Write(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteDouble">
+            <summary>Sets the shim of TextWriter.Write(Double value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteInt32">
+            <summary>Sets the shim of TextWriter.Write(Int32 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteInt64">
+            <summary>Sets the shim of TextWriter.Write(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLine">
+            <summary>Sets the shim of TextWriter.WriteLine()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineBoolean">
+            <summary>Sets the shim of TextWriter.WriteLine(Boolean value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineChar">
+            <summary>Sets the shim of TextWriter.WriteLine(Char value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineCharArray">
+            <summary>Sets the shim of TextWriter.WriteLine(Char[] buffer)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineCharArrayInt32Int32">
+            <summary>Sets the shim of TextWriter.WriteLine(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineDouble">
+            <summary>Sets the shim of TextWriter.WriteLine(Double value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineInt32">
+            <summary>Sets the shim of TextWriter.WriteLine(Int32 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineInt64">
+            <summary>Sets the shim of TextWriter.WriteLine(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineObject">
+            <summary>Sets the shim of TextWriter.WriteLine(Object value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineSingle">
+            <summary>Sets the shim of TextWriter.WriteLine(Single value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineString">
+            <summary>Sets the shim of TextWriter.WriteLine(String value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineUInt32">
+            <summary>Sets the shim of TextWriter.WriteLine(UInt32 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteLineUInt64">
+            <summary>Sets the shim of TextWriter.WriteLine(UInt64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteObject">
+            <summary>Sets the shim of TextWriter.Write(Object value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteSingle">
+            <summary>Sets the shim of TextWriter.Write(Single value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteString">
+            <summary>Sets the shim of TextWriter.Write(String value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteUInt32">
+            <summary>Sets the shim of TextWriter.Write(UInt32 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.WriteUInt64">
+            <summary>Sets the shim of TextWriter.Write(UInt64 value)</summary>
+        </member>
+        <member name="T:System.IO.Fakes.ShimTextWriter.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.Close">
+            <summary>Sets the shim of TextWriter.Close()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.Dispose">
+            <summary>Sets the shim of TextWriter.Dispose()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of TextWriter.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.Flush">
+            <summary>Sets the shim of TextWriter.Flush()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.NewLineGet">
+            <summary>Sets the shim of TextWriter.get_NewLine()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.NewLineSetString">
+            <summary>Sets the shim of TextWriter.set_NewLine(String value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteBoolean">
+            <summary>Sets the shim of TextWriter.Write(Boolean value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteChar">
+            <summary>Sets the shim of TextWriter.Write(Char value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteCharArray">
+            <summary>Sets the shim of TextWriter.Write(Char[] buffer)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteCharArrayInt32Int32">
+            <summary>Sets the shim of TextWriter.Write(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteDouble">
+            <summary>Sets the shim of TextWriter.Write(Double value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteInt32">
+            <summary>Sets the shim of TextWriter.Write(Int32 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteInt64">
+            <summary>Sets the shim of TextWriter.Write(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLine">
+            <summary>Sets the shim of TextWriter.WriteLine()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineBoolean">
+            <summary>Sets the shim of TextWriter.WriteLine(Boolean value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineChar">
+            <summary>Sets the shim of TextWriter.WriteLine(Char value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineCharArray">
+            <summary>Sets the shim of TextWriter.WriteLine(Char[] buffer)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineCharArrayInt32Int32">
+            <summary>Sets the shim of TextWriter.WriteLine(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineDouble">
+            <summary>Sets the shim of TextWriter.WriteLine(Double value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineInt32">
+            <summary>Sets the shim of TextWriter.WriteLine(Int32 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineInt64">
+            <summary>Sets the shim of TextWriter.WriteLine(Int64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineObject">
+            <summary>Sets the shim of TextWriter.WriteLine(Object value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineSingle">
+            <summary>Sets the shim of TextWriter.WriteLine(Single value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineString">
+            <summary>Sets the shim of TextWriter.WriteLine(String value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineUInt32">
+            <summary>Sets the shim of TextWriter.WriteLine(UInt32 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteLineUInt64">
+            <summary>Sets the shim of TextWriter.WriteLine(UInt64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteObject">
+            <summary>Sets the shim of TextWriter.Write(Object value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteSingle">
+            <summary>Sets the shim of TextWriter.Write(Single value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteString">
+            <summary>Sets the shim of TextWriter.Write(String value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteUInt32">
+            <summary>Sets the shim of TextWriter.Write(UInt32 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.ShimTextWriter.AllInstances.WriteUInt64">
+            <summary>Sets the shim of TextWriter.Write(UInt64 value)</summary>
+        </member>
+        <member name="T:System.IO.Fakes.StubFileEnum">
+            <summary>Stub type of System.IO.FileEnum</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileEnum.#ctor(System.String,System.IO.FileEnumFlags)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileEnum.Dispose(System.Boolean)">
+            <summary>Sets the stub of FileEnum.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileEnum.DisposeBoolean">
+            <summary>Sets the stub of FileEnum.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileEnum.InitializeStub">
+            <summary>Initializes a new instance of type StubFileEnum</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileEnum.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileEnum.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileEnum.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:System.IO.Fakes.StubFileEnumerator">
+            <summary>Stub type of System.IO.FileEnumerator</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileEnumerator.#ctor(System.String,System.IO.FileEnumFlags)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileEnumerator.InitializeStub">
+            <summary>Initializes a new instance of type StubFileEnumerator</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileEnumerator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileEnumerator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileEnumerator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:System.IO.Fakes.StubFileStream">
+            <summary>Stub type of System.IO.FileStream</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.#ctor(System.String,System.IO.FileMode)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.AttachBackingFieldToPosition">
+            <summary>Attaches delegates to emulate StubFileStream.Position as a property with a backing field.</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.AttachBackingFieldToReadTimeout">
+            <summary>Attaches delegates to emulate StubFileStream.ReadTimeout as a property with a backing field.</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.AttachBackingFieldToWriteTimeout">
+            <summary>Attaches delegates to emulate StubFileStream.WriteTimeout as a property with a backing field.</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Stream.BeginRead(Byte[] buffer, Int32 offset, Int32 count, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.BeginReadByteArrayInt32Int32AsyncCallbackObject">
+            <summary>Sets the stub of Stream.BeginRead(Byte[] buffer, Int32 offset, Int32 count, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Stream.BeginWrite(Byte[] buffer, Int32 offset, Int32 count, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.BeginWriteByteArrayInt32Int32AsyncCallbackObject">
+            <summary>Sets the stub of Stream.BeginWrite(Byte[] buffer, Int32 offset, Int32 count, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.CanReadGet">
+            <summary>Sets the stub of FileStream.get_CanRead()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.CanSeekGet">
+            <summary>Sets the stub of FileStream.get_CanSeek()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.CanTimeoutGet">
+            <summary>Sets the stub of Stream.get_CanTimeout()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.CanWriteGet">
+            <summary>Sets the stub of FileStream.get_CanWrite()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.Close">
+            <summary>Sets the stub of Stream.Close()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.Close01">
+            <summary>Sets the stub of Stream.Close()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.CreateWaitHandle">
+            <summary>Sets the stub of Stream.CreateWaitHandle()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.CreateWaitHandle01">
+            <summary>Sets the stub of Stream.CreateWaitHandle()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.Dispose(System.Boolean)">
+            <summary>Sets the stub of FileStream.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.DisposeBoolean">
+            <summary>Sets the stub of FileStream.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.EndRead(System.IAsyncResult)">
+            <summary>Sets the stub of Stream.EndRead(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.EndReadIAsyncResult">
+            <summary>Sets the stub of Stream.EndRead(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.EndWrite(System.IAsyncResult)">
+            <summary>Sets the stub of Stream.EndWrite(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.EndWriteIAsyncResult">
+            <summary>Sets the stub of Stream.EndWrite(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.Flush">
+            <summary>Sets the stub of FileStream.Flush()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.Flush01">
+            <summary>Sets the stub of FileStream.Flush()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.InitializeStub">
+            <summary>Initializes a new instance of type StubFileStream</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.IsAsyncGet">
+            <summary>Sets the stub of FileStream.get_IsAsync()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.LengthGet">
+            <summary>Sets the stub of FileStream.get_Length()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.ObjectInvariant">
+            <summary>Sets the stub of Stream.ObjectInvariant()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.ObjectInvariant01">
+            <summary>Sets the stub of Stream.ObjectInvariant()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.PositionGet">
+            <summary>Sets the stub of FileStream.get_Position()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.PositionSetInt64">
+            <summary>Sets the stub of FileStream.set_Position(Int64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.Read(System.Byte[],System.Int32,System.Int32)">
+            <summary>Sets the stub of FileStream.Read(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.ReadByte">
+            <summary>Sets the stub of Stream.ReadByte()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.ReadByte01">
+            <summary>Sets the stub of Stream.ReadByte()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.ReadByteArrayInt32Int32">
+            <summary>Sets the stub of FileStream.Read(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.ReadTimeoutGet">
+            <summary>Sets the stub of Stream.get_ReadTimeout()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.ReadTimeoutSetInt32">
+            <summary>Sets the stub of Stream.set_ReadTimeout(Int32 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.Seek(System.Int64,System.IO.SeekOrigin)">
+            <summary>Sets the stub of FileStream.Seek(Int64 offset, SeekOrigin origin)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.SeekInt64SeekOrigin">
+            <summary>Sets the stub of FileStream.Seek(Int64 offset, SeekOrigin origin)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.SetLength(System.Int64)">
+            <summary>Sets the stub of FileStream.SetLength(Int64 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.SetLengthInt64">
+            <summary>Sets the stub of FileStream.SetLength(Int64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>Sets the stub of FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileStream.WriteByte(System.Byte)">
+            <summary>Sets the stub of Stream.WriteByte(Byte value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.WriteByteArrayInt32Int32">
+            <summary>Sets the stub of FileStream.Write(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.WriteByteByte">
+            <summary>Sets the stub of Stream.WriteByte(Byte value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.WriteTimeoutGet">
+            <summary>Sets the stub of Stream.get_WriteTimeout()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileStream.WriteTimeoutSetInt32">
+            <summary>Sets the stub of Stream.set_WriteTimeout(Int32 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.CanRead">
+            <summary>Sets the stub of FileStream.get_CanRead()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.CanSeek">
+            <summary>Sets the stub of FileStream.get_CanSeek()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.CanTimeout">
+            <summary>Sets the stub of Stream.get_CanTimeout()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.CanWrite">
+            <summary>Sets the stub of FileStream.get_CanWrite()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.IsAsync">
+            <summary>Sets the stub of FileStream.get_IsAsync()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.Length">
+            <summary>Sets the stub of FileStream.get_Length()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.Position">
+            <summary>Sets the stub of FileStream.get_Position()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.ReadTimeout">
+            <summary>Sets the stub of Stream.get_ReadTimeout()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileStream.WriteTimeout">
+            <summary>Sets the stub of Stream.get_WriteTimeout()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.StubFileSystemInfo">
+            <summary>Stub type of System.IO.FileSystemInfo</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileSystemInfo.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileSystemInfo.Delete">
+            <summary>Sets the stub of FileSystemInfo.Delete()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileSystemInfo.Delete01">
+            <summary>Sets the stub of FileSystemInfo.Delete()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileSystemInfo.ExistsGet">
+            <summary>Sets the stub of FileSystemInfo.get_Exists()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileSystemInfo.FullNameGet">
+            <summary>Sets the stub of FileSystemInfo.get_FullName()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubFileSystemInfo.InitializeStub">
+            <summary>Initializes a new instance of type StubFileSystemInfo</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubFileSystemInfo.NameGet">
+            <summary>Sets the stub of FileSystemInfo.get_Name()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileSystemInfo.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileSystemInfo.Exists">
+            <summary>Sets the stub of FileSystemInfo.get_Exists()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileSystemInfo.FullName">
+            <summary>Sets the stub of FileSystemInfo.get_FullName()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileSystemInfo.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileSystemInfo.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubFileSystemInfo.Name">
+            <summary>Sets the stub of FileSystemInfo.get_Name()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.StubMemoryStream">
+            <summary>Stub type of System.IO.MemoryStream</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.#ctor(System.Byte[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.AttachBackingFieldToPosition">
+            <summary>Attaches delegates to emulate StubMemoryStream.Position as a property with a backing field.</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.AttachBackingFieldToReadTimeout">
+            <summary>Attaches delegates to emulate StubMemoryStream.ReadTimeout as a property with a backing field.</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.AttachBackingFieldToWriteTimeout">
+            <summary>Attaches delegates to emulate StubMemoryStream.WriteTimeout as a property with a backing field.</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Stream.BeginRead(Byte[] buffer, Int32 offset, Int32 count, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.BeginReadByteArrayInt32Int32AsyncCallbackObject">
+            <summary>Sets the stub of Stream.BeginRead(Byte[] buffer, Int32 offset, Int32 count, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of Stream.BeginWrite(Byte[] buffer, Int32 offset, Int32 count, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.BeginWriteByteArrayInt32Int32AsyncCallbackObject">
+            <summary>Sets the stub of Stream.BeginWrite(Byte[] buffer, Int32 offset, Int32 count, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.CanReadGet">
+            <summary>Sets the stub of MemoryStream.get_CanRead()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.CanSeekGet">
+            <summary>Sets the stub of MemoryStream.get_CanSeek()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.CanTimeoutGet">
+            <summary>Sets the stub of Stream.get_CanTimeout()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.CanWriteGet">
+            <summary>Sets the stub of MemoryStream.get_CanWrite()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.Close">
+            <summary>Sets the stub of Stream.Close()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.Close01">
+            <summary>Sets the stub of Stream.Close()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.CreateWaitHandle">
+            <summary>Sets the stub of Stream.CreateWaitHandle()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.CreateWaitHandle01">
+            <summary>Sets the stub of Stream.CreateWaitHandle()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.Dispose(System.Boolean)">
+            <summary>Sets the stub of MemoryStream.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.DisposeBoolean">
+            <summary>Sets the stub of MemoryStream.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.EndRead(System.IAsyncResult)">
+            <summary>Sets the stub of Stream.EndRead(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.EndReadIAsyncResult">
+            <summary>Sets the stub of Stream.EndRead(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.EndWrite(System.IAsyncResult)">
+            <summary>Sets the stub of Stream.EndWrite(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.EndWriteIAsyncResult">
+            <summary>Sets the stub of Stream.EndWrite(IAsyncResult asyncResult)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.Flush">
+            <summary>Sets the stub of MemoryStream.Flush()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.Flush01">
+            <summary>Sets the stub of MemoryStream.Flush()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.InitializeStub">
+            <summary>Initializes a new instance of type StubMemoryStream</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.LengthGet">
+            <summary>Sets the stub of MemoryStream.get_Length()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.ObjectInvariant">
+            <summary>Sets the stub of Stream.ObjectInvariant()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.ObjectInvariant01">
+            <summary>Sets the stub of Stream.ObjectInvariant()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.PositionGet">
+            <summary>Sets the stub of MemoryStream.get_Position()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.PositionSetInt64">
+            <summary>Sets the stub of MemoryStream.set_Position(Int64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.Read(System.Byte[],System.Int32,System.Int32)">
+            <summary>Sets the stub of MemoryStream.Read(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.ReadByte">
+            <summary>Sets the stub of MemoryStream.ReadByte()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.ReadByte01">
+            <summary>Sets the stub of MemoryStream.ReadByte()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.ReadByteArrayInt32Int32">
+            <summary>Sets the stub of MemoryStream.Read(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.ReadTimeoutGet">
+            <summary>Sets the stub of Stream.get_ReadTimeout()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.ReadTimeoutSetInt32">
+            <summary>Sets the stub of Stream.set_ReadTimeout(Int32 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.Seek(System.Int64,System.IO.SeekOrigin)">
+            <summary>Sets the stub of MemoryStream.Seek(Int64 offset, SeekOrigin origin)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.SeekInt64SeekOrigin">
+            <summary>Sets the stub of MemoryStream.Seek(Int64 offset, SeekOrigin origin)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.SetLength(System.Int64)">
+            <summary>Sets the stub of MemoryStream.SetLength(Int64 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.SetLengthInt64">
+            <summary>Sets the stub of MemoryStream.SetLength(Int64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.ToArray">
+            <summary>Sets the stub of MemoryStream.ToArray()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.ToArray01">
+            <summary>Sets the stub of MemoryStream.ToArray()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>Sets the stub of MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.WriteByte(System.Byte)">
+            <summary>Sets the stub of MemoryStream.WriteByte(Byte value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.WriteByteArrayInt32Int32">
+            <summary>Sets the stub of MemoryStream.Write(Byte[] buffer, Int32 offset, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.WriteByteByte">
+            <summary>Sets the stub of MemoryStream.WriteByte(Byte value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.WriteTimeoutGet">
+            <summary>Sets the stub of Stream.get_WriteTimeout()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.WriteTimeoutSetInt32">
+            <summary>Sets the stub of Stream.set_WriteTimeout(Int32 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubMemoryStream.WriteTo(System.IO.Stream)">
+            <summary>Sets the stub of MemoryStream.WriteTo(Stream stream)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubMemoryStream.WriteToStream">
+            <summary>Sets the stub of MemoryStream.WriteTo(Stream stream)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubMemoryStream.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubMemoryStream.CanRead">
+            <summary>Sets the stub of MemoryStream.get_CanRead()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubMemoryStream.CanSeek">
+            <summary>Sets the stub of MemoryStream.get_CanSeek()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubMemoryStream.CanTimeout">
+            <summary>Sets the stub of Stream.get_CanTimeout()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubMemoryStream.CanWrite">
+            <summary>Sets the stub of MemoryStream.get_CanWrite()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubMemoryStream.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubMemoryStream.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubMemoryStream.Length">
+            <summary>Sets the stub of MemoryStream.get_Length()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubMemoryStream.Position">
+            <summary>Sets the stub of MemoryStream.get_Position()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubMemoryStream.ReadTimeout">
+            <summary>Sets the stub of Stream.get_ReadTimeout()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubMemoryStream.WriteTimeout">
+            <summary>Sets the stub of Stream.get_WriteTimeout()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.StubStreamReader">
+            <summary>Stub type of System.IO.StreamReader</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamReader.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamReader.#ctor(System.IO.Stream)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamReader.BaseStreamGet">
+            <summary>Sets the stub of StreamReader.get_BaseStream()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamReader.Close">
+            <summary>Sets the stub of StreamReader.Close()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamReader.Close01">
+            <summary>Sets the stub of StreamReader.Close()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamReader.CurrentEncodingGet">
+            <summary>Sets the stub of StreamReader.get_CurrentEncoding()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamReader.Dispose(System.Boolean)">
+            <summary>Sets the stub of StreamReader.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamReader.DisposeBoolean">
+            <summary>Sets the stub of StreamReader.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamReader.InitializeStub">
+            <summary>Initializes a new instance of type StubStreamReader</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamReader.Peek">
+            <summary>Sets the stub of StreamReader.Peek()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamReader.Peek01">
+            <summary>Sets the stub of StreamReader.Peek()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamReader.Read">
+            <summary>Sets the stub of StreamReader.Read()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamReader.Read(System.Char[],System.Int32,System.Int32)">
+            <summary>Sets the stub of StreamReader.Read(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamReader.Read01">
+            <summary>Sets the stub of StreamReader.Read()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamReader.ReadBlock(System.Char[],System.Int32,System.Int32)">
+            <summary>Sets the stub of TextReader.ReadBlock(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamReader.ReadBlockCharArrayInt32Int32">
+            <summary>Sets the stub of TextReader.ReadBlock(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamReader.ReadCharArrayInt32Int32">
+            <summary>Sets the stub of StreamReader.Read(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamReader.ReadLine">
+            <summary>Sets the stub of StreamReader.ReadLine()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamReader.ReadLine01">
+            <summary>Sets the stub of StreamReader.ReadLine()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamReader.ReadToEnd">
+            <summary>Sets the stub of StreamReader.ReadToEnd()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamReader.ReadToEnd01">
+            <summary>Sets the stub of StreamReader.ReadToEnd()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubStreamReader.BaseStream">
+            <summary>Sets the stub of StreamReader.get_BaseStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubStreamReader.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubStreamReader.CurrentEncoding">
+            <summary>Sets the stub of StreamReader.get_CurrentEncoding()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubStreamReader.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubStreamReader.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:System.IO.Fakes.StubStreamWriter">
+            <summary>Stub type of System.IO.StreamWriter</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.#ctor(System.IO.Stream)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.#ctor(System.String,System.Boolean)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.AttachBackingFieldToNewLine">
+            <summary>Attaches delegates to emulate StubStreamWriter.NewLine as a property with a backing field.</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.BaseStreamGet">
+            <summary>Sets the stub of StreamWriter.get_BaseStream()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Close">
+            <summary>Sets the stub of StreamWriter.Close()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.Close01">
+            <summary>Sets the stub of StreamWriter.Close()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Dispose(System.Boolean)">
+            <summary>Sets the stub of StreamWriter.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.DisposeBoolean">
+            <summary>Sets the stub of StreamWriter.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.EncodingGet">
+            <summary>Sets the stub of StreamWriter.get_Encoding()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Flush">
+            <summary>Sets the stub of StreamWriter.Flush()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.Flush01">
+            <summary>Sets the stub of StreamWriter.Flush()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.InitializeStub">
+            <summary>Initializes a new instance of type StubStreamWriter</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.NewLineGet">
+            <summary>Sets the stub of TextWriter.get_NewLine()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.NewLineSetString">
+            <summary>Sets the stub of TextWriter.set_NewLine(String value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.Boolean)">
+            <summary>Sets the stub of TextWriter.Write(Boolean value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.Char)">
+            <summary>Sets the stub of StreamWriter.Write(Char value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.Double)">
+            <summary>Sets the stub of TextWriter.Write(Double value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.Int32)">
+            <summary>Sets the stub of TextWriter.Write(Int32 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.Int64)">
+            <summary>Sets the stub of TextWriter.Write(Int64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.Single)">
+            <summary>Sets the stub of TextWriter.Write(Single value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.UInt64)">
+            <summary>Sets the stub of TextWriter.Write(UInt64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.Object)">
+            <summary>Sets the stub of TextWriter.Write(Object value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.String)">
+            <summary>Sets the stub of TextWriter.Write(String value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.Char[])">
+            <summary>Sets the stub of TextWriter.Write(Char[] buffer)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.UInt32)">
+            <summary>Sets the stub of TextWriter.Write(UInt32 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.Write(System.Char[],System.Int32,System.Int32)">
+            <summary>Sets the stub of TextWriter.Write(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteBoolean">
+            <summary>Sets the stub of TextWriter.Write(Boolean value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteChar">
+            <summary>Sets the stub of StreamWriter.Write(Char value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteCharArray">
+            <summary>Sets the stub of TextWriter.Write(Char[] buffer)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteCharArrayInt32Int32">
+            <summary>Sets the stub of TextWriter.Write(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteDouble">
+            <summary>Sets the stub of TextWriter.Write(Double value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteInt32">
+            <summary>Sets the stub of TextWriter.Write(Int32 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteInt64">
+            <summary>Sets the stub of TextWriter.Write(Int64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine">
+            <summary>Sets the stub of StreamWriter.WriteLine()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.Object)">
+            <summary>Sets the stub of TextWriter.WriteLine(Object value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.Char)">
+            <summary>Sets the stub of TextWriter.WriteLine(Char value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.Double)">
+            <summary>Sets the stub of TextWriter.WriteLine(Double value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.Single)">
+            <summary>Sets the stub of TextWriter.WriteLine(Single value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.String)">
+            <summary>Sets the stub of StreamWriter.WriteLine(String value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.Boolean)">
+            <summary>Sets the stub of TextWriter.WriteLine(Boolean value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.Int32)">
+            <summary>Sets the stub of TextWriter.WriteLine(Int32 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.Int64)">
+            <summary>Sets the stub of TextWriter.WriteLine(Int64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.UInt32)">
+            <summary>Sets the stub of TextWriter.WriteLine(UInt32 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.UInt64)">
+            <summary>Sets the stub of TextWriter.WriteLine(UInt64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.Char[])">
+            <summary>Sets the stub of TextWriter.WriteLine(Char[] buffer)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubStreamWriter.WriteLine(System.Char[],System.Int32,System.Int32)">
+            <summary>Sets the stub of TextWriter.WriteLine(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLine01">
+            <summary>Sets the stub of StreamWriter.WriteLine()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineBoolean">
+            <summary>Sets the stub of TextWriter.WriteLine(Boolean value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineChar">
+            <summary>Sets the stub of TextWriter.WriteLine(Char value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineCharArray">
+            <summary>Sets the stub of TextWriter.WriteLine(Char[] buffer)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineCharArrayInt32Int32">
+            <summary>Sets the stub of TextWriter.WriteLine(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineDouble">
+            <summary>Sets the stub of TextWriter.WriteLine(Double value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineInt32">
+            <summary>Sets the stub of TextWriter.WriteLine(Int32 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineInt64">
+            <summary>Sets the stub of TextWriter.WriteLine(Int64 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineObject">
+            <summary>Sets the stub of TextWriter.WriteLine(Object value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineSingle">
+            <summary>Sets the stub of TextWriter.WriteLine(Single value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineString">
+            <summary>Sets the stub of StreamWriter.WriteLine(String value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineUInt32">
+            <summary>Sets the stub of TextWriter.WriteLine(UInt32 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteLineUInt64">
+            <summary>Sets the stub of TextWriter.WriteLine(UInt64 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteObject">
+            <summary>Sets the stub of TextWriter.Write(Object value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteSingle">
+            <summary>Sets the stub of TextWriter.Write(Single value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteString">
+            <summary>Sets the stub of TextWriter.Write(String value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteUInt32">
+            <summary>Sets the stub of TextWriter.Write(UInt32 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubStreamWriter.WriteUInt64">
+            <summary>Sets the stub of TextWriter.Write(UInt64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubStreamWriter.BaseStream">
+            <summary>Sets the stub of StreamWriter.get_BaseStream()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubStreamWriter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubStreamWriter.Encoding">
+            <summary>Sets the stub of StreamWriter.get_Encoding()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubStreamWriter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubStreamWriter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubStreamWriter.NewLine">
+            <summary>Sets the stub of TextWriter.get_NewLine()</summary>
+        </member>
+        <member name="T:System.IO.Fakes.StubTextReader">
+            <summary>Stub type of System.IO.TextReader</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextReader.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextReader.Close">
+            <summary>Sets the stub of TextReader.Close()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextReader.Close01">
+            <summary>Sets the stub of TextReader.Close()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextReader.Dispose(System.Boolean)">
+            <summary>Sets the stub of TextReader.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextReader.DisposeBoolean">
+            <summary>Sets the stub of TextReader.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextReader.InitializeStub">
+            <summary>Initializes a new instance of type StubTextReader</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextReader.Peek">
+            <summary>Sets the stub of TextReader.Peek()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextReader.Peek01">
+            <summary>Sets the stub of TextReader.Peek()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextReader.Read">
+            <summary>Sets the stub of TextReader.Read()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextReader.Read(System.Char[],System.Int32,System.Int32)">
+            <summary>Sets the stub of TextReader.Read(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextReader.Read01">
+            <summary>Sets the stub of TextReader.Read()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextReader.ReadBlock(System.Char[],System.Int32,System.Int32)">
+            <summary>Sets the stub of TextReader.ReadBlock(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextReader.ReadBlockCharArrayInt32Int32">
+            <summary>Sets the stub of TextReader.ReadBlock(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextReader.ReadCharArrayInt32Int32">
+            <summary>Sets the stub of TextReader.Read(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextReader.ReadLine">
+            <summary>Sets the stub of TextReader.ReadLine()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextReader.ReadLine01">
+            <summary>Sets the stub of TextReader.ReadLine()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextReader.ReadToEnd">
+            <summary>Sets the stub of TextReader.ReadToEnd()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextReader.ReadToEnd01">
+            <summary>Sets the stub of TextReader.ReadToEnd()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubTextReader.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubTextReader.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubTextReader.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:System.IO.Fakes.StubTextWriter">
+            <summary>Stub type of System.IO.TextWriter</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.AttachBackingFieldToNewLine">
+            <summary>Attaches delegates to emulate StubTextWriter.NewLine as a property with a backing field.</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Close">
+            <summary>Sets the stub of TextWriter.Close()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.Close01">
+            <summary>Sets the stub of TextWriter.Close()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Dispose(System.Boolean)">
+            <summary>Sets the stub of TextWriter.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.DisposeBoolean">
+            <summary>Sets the stub of TextWriter.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.EncodingGet">
+            <summary>Sets the stub of TextWriter.get_Encoding()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Flush">
+            <summary>Sets the stub of TextWriter.Flush()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.Flush01">
+            <summary>Sets the stub of TextWriter.Flush()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.InitializeStub">
+            <summary>Initializes a new instance of type StubTextWriter</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.NewLineGet">
+            <summary>Sets the stub of TextWriter.get_NewLine()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.NewLineSetString">
+            <summary>Sets the stub of TextWriter.set_NewLine(String value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.Object)">
+            <summary>Sets the stub of TextWriter.Write(Object value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.Double)">
+            <summary>Sets the stub of TextWriter.Write(Double value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.String)">
+            <summary>Sets the stub of TextWriter.Write(String value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.Boolean)">
+            <summary>Sets the stub of TextWriter.Write(Boolean value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.Char)">
+            <summary>Sets the stub of TextWriter.Write(Char value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.Int32)">
+            <summary>Sets the stub of TextWriter.Write(Int32 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.Char[])">
+            <summary>Sets the stub of TextWriter.Write(Char[] buffer)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.Int64)">
+            <summary>Sets the stub of TextWriter.Write(Int64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.UInt64)">
+            <summary>Sets the stub of TextWriter.Write(UInt64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.UInt32)">
+            <summary>Sets the stub of TextWriter.Write(UInt32 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.Single)">
+            <summary>Sets the stub of TextWriter.Write(Single value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.Write(System.Char[],System.Int32,System.Int32)">
+            <summary>Sets the stub of TextWriter.Write(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteBoolean">
+            <summary>Sets the stub of TextWriter.Write(Boolean value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteChar">
+            <summary>Sets the stub of TextWriter.Write(Char value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteCharArray">
+            <summary>Sets the stub of TextWriter.Write(Char[] buffer)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteCharArrayInt32Int32">
+            <summary>Sets the stub of TextWriter.Write(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteDouble">
+            <summary>Sets the stub of TextWriter.Write(Double value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteInt32">
+            <summary>Sets the stub of TextWriter.Write(Int32 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteInt64">
+            <summary>Sets the stub of TextWriter.Write(Int64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine">
+            <summary>Sets the stub of TextWriter.WriteLine()</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.Boolean)">
+            <summary>Sets the stub of TextWriter.WriteLine(Boolean value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.Char)">
+            <summary>Sets the stub of TextWriter.WriteLine(Char value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.Double)">
+            <summary>Sets the stub of TextWriter.WriteLine(Double value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.Int32)">
+            <summary>Sets the stub of TextWriter.WriteLine(Int32 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.Int64)">
+            <summary>Sets the stub of TextWriter.WriteLine(Int64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.Single)">
+            <summary>Sets the stub of TextWriter.WriteLine(Single value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.String)">
+            <summary>Sets the stub of TextWriter.WriteLine(String value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.UInt32)">
+            <summary>Sets the stub of TextWriter.WriteLine(UInt32 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.UInt64)">
+            <summary>Sets the stub of TextWriter.WriteLine(UInt64 value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.Object)">
+            <summary>Sets the stub of TextWriter.WriteLine(Object value)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.Char[])">
+            <summary>Sets the stub of TextWriter.WriteLine(Char[] buffer)</summary>
+        </member>
+        <member name="M:System.IO.Fakes.StubTextWriter.WriteLine(System.Char[],System.Int32,System.Int32)">
+            <summary>Sets the stub of TextWriter.WriteLine(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLine01">
+            <summary>Sets the stub of TextWriter.WriteLine()</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineBoolean">
+            <summary>Sets the stub of TextWriter.WriteLine(Boolean value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineChar">
+            <summary>Sets the stub of TextWriter.WriteLine(Char value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineCharArray">
+            <summary>Sets the stub of TextWriter.WriteLine(Char[] buffer)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineCharArrayInt32Int32">
+            <summary>Sets the stub of TextWriter.WriteLine(Char[] buffer, Int32 index, Int32 count)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineDouble">
+            <summary>Sets the stub of TextWriter.WriteLine(Double value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineInt32">
+            <summary>Sets the stub of TextWriter.WriteLine(Int32 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineInt64">
+            <summary>Sets the stub of TextWriter.WriteLine(Int64 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineObject">
+            <summary>Sets the stub of TextWriter.WriteLine(Object value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineSingle">
+            <summary>Sets the stub of TextWriter.WriteLine(Single value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineString">
+            <summary>Sets the stub of TextWriter.WriteLine(String value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineUInt32">
+            <summary>Sets the stub of TextWriter.WriteLine(UInt32 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteLineUInt64">
+            <summary>Sets the stub of TextWriter.WriteLine(UInt64 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteObject">
+            <summary>Sets the stub of TextWriter.Write(Object value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteSingle">
+            <summary>Sets the stub of TextWriter.Write(Single value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteString">
+            <summary>Sets the stub of TextWriter.Write(String value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteUInt32">
+            <summary>Sets the stub of TextWriter.Write(UInt32 value)</summary>
+        </member>
+        <member name="F:System.IO.Fakes.StubTextWriter.WriteUInt64">
+            <summary>Sets the stub of TextWriter.Write(UInt64 value)</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubTextWriter.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubTextWriter.Encoding">
+            <summary>Sets the stub of TextWriter.get_Encoding()</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubTextWriter.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubTextWriter.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:System.IO.Fakes.StubTextWriter.NewLine">
+            <summary>Sets the stub of TextWriter.get_NewLine()</summary>
+        </member>
+    </members>
+</doc>

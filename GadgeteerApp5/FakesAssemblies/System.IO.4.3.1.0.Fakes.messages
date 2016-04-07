@@ -1,0 +1,17 @@
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate stub for System.IO.Directory: type is sealed.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate stub for System.IO.DirectoryInfo: type is sealed.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate stub for System.IO.File: type is sealed.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate stub for System.IO.FileAccess: type is a value type.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate stub for System.IO.FileAttributes: type is a value type.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate stub for System.IO.FileEnumFlags: type is a value type.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate stub for System.IO.FileInfo: type is sealed.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate stub for System.IO.FileMode: type is a value type.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate stub for System.IO.FileShare: type is a value type.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate stub for System.IO.Path: type is sealed.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate stub for <PrivateImplementationDetails>{BF3B75CA-530D-4317-905E-DD4F8378A384}: type is not supported because of internal limitations.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate shim for System.IO.FileAccess: type is an enum.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate shim for System.IO.FileAttributes: type is an enum.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate shim for System.IO.FileEnumFlags: type is an enum.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate shim for System.IO.FileMode: type is an enum.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate shim for System.IO.FileShare: type is an enum.
+C:\Users\Gajdoš Michal\Documents\Visual Studio 2012\Projects\GadgeteerApp5\GadgeteerApp5\Fakes\System.IO.fakes : warning : Cannot generate shim for <PrivateImplementationDetails>{BF3B75CA-530D-4317-905E-DD4F8378A384}: type is not supported because of internal limitations.
